@@ -2,7 +2,7 @@ from pyserini.search import SimpleSearcher
 import pandas as pd
 import time
 
-queries = pd.read_csv('queries.docdev.tsv', sep='\t', names=['query_id', 'query'], dtype={"query_id": str})
+queries = pd.read_csv('dev/queries.docdev.tsv', sep='\t', names=['query_id', 'query'], dtype={"query_id": str})
 
 searcher = SimpleSearcher('indexes/lucene-index-msmarco-doc')
 searcher.set_bm25(k1=4.46, b=0.82)
