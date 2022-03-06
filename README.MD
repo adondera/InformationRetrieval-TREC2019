@@ -1,7 +1,7 @@
 # TREC 2019 deep learning track
 
 * Download the dataset from https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019#deep-learning-track-tasks
-
+* Save the collection in `collections/msmarco-doc/msmarco-docs.trec.gz`
 * Build the index using the following command:
 * ```shell
   python -m pyserini.index.lucene --collection CleanTrecCollection 
