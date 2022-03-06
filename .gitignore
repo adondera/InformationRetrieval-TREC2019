@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.exe
+*.gz
+*.tsv
+*.out
+*.txt
+*.trec
+indexes
+runs
+trec_eval
+.idea
